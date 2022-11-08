@@ -4,7 +4,7 @@ RUN apt-get update
 
 RUN apt-get upgrade -y
 
-apt-get install -y git jq
+RUN apt-get install -y git jq
 
 # Setup the correct timezone and locale
 ENV TZ=America/Los_Angeles
